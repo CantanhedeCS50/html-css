@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de iframes </h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione suscipit aliquam dolorem consequatur quas minus nam cum quos culpa nobis molestiae consectetur, natus maxime praesentium recusandae corrupti. Suscipit, enim nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. In illum minus magni. Rerum, asperiores modi? Nemo libero rem, natus iure id impedit tempora excepturi deleniti maiores, sequi consequuntur praesentium facere.</p>
 
     <ul>
-        <li><a href="#"> Pagina 1</a></li>
-        <li><a href="#"> Pagina 2</a></li>
-        <li><a href="#"> Pagina 3</a></li>
+        <li><a href="d012/index.html" target="frame"> Pagina 1</a></li>
+        <li><a href="desafio05/index.html" target="frame"> Pagina 2</a></li>
+        <li><a href="paginas-extras/pag001.html" target="frame"> Pagina 3</a></li>
     </ul>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum velit mollitia aliquam dolorem perferendis, doloremque rem quia nesciunt doloribus? Maiores autem quo blanditiis delectus commodi, maxime saepe vero explicabo vitae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, delectus! Voluptates repellendus nisi, nostrum a perspiciatis ipsam iusto possimus mollitia tempore ducimus ullam libero atque saepe laboriosam in architecto vitae!</p>
 
-    <iframe src="#"></iframe>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opcoes acima</h1>"></iframe>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta sint aliquam reprehenderit ullam delectus dolorem nesciunt, qui vel modi, quos cupiditate excepturi quae recusandae, exercitationem aperiam non? Unde, mollitia.</p>
 </body>
 </html>
